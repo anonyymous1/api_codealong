@@ -1,0 +1,29 @@
+- Access the library API
+    x Hardcode the category first
+            http://thedomain.com/this/is/the/path?foo=bar
+            pr.cl   domain          path        query params
+    x Postman
+    - Dig out the cover title author
+    - Create the fetch
+        - Write a JS functino that takes the string and runs API request
+
+x Function that returns the random book
+    x is ebook count the real count? if so use it
+    x work.length as max in random Function
+    x Math.random() * works.length);
+    x works[randomIndex];
+
+
+- Present the info from the API to the DOM
+    - Book cover, author, title
+    - Build helper functinos to generate element then append them
+    - Get the elements that are in the HTML that we are appending to
+
+    
+x Link our files
+- Build the HTML of the site and the input
+
+- wire up the input later
+    - Ddd event listener to button
+        - Grab the input via a query selector & get its text
+        - Pass it in to the search function
